@@ -1,0 +1,135 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(211, 211, 98);
+    max-width: 1200px;
+    margin: 0% auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+}
+
+h1{
+font-weight: 200px;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 55px;
+    line-height: 10px;
+    font-family: poppinsmedium; 
+}
+
+span{
+    color: rgb(70, 70, 155)
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+li{
+    color: rgb(255, 255, 255);
+}
+
+li:hover{
+    color: yellow;
+}
+
+img{
+    width: 400px;
+    border-radius: 40px;
+    margin-left: 70%;
+    margin-top: 25%;
+}
+
+
+
+
+#especial-button{
+    border: 2px solid rgb(70, 70, 155);
+    border-radius: 20px ;
+    padding: 10px;
+    
+}
+
+#especial-button:hover{
+background-color: rgb(155, 73, 155);
+color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+
+}
+
+#enviar{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(141, 77, 141);
+    color: white;
+    font-weight: bold;
+}
+
+#enviar:hover{
+    cursor: pointer;
+}
+
+#Etpage{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    border-radius: 20px;
+    align-self: center;
+   
+}
+
+#Bitch{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(202, 91, 91);
+    color: white;
+    margin-top: 10px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+#Bitch:hover{
+    cursor: pointer;
+    transition: 0.3s all;
+    background-color: rgb(69, 201, 157);
+}
